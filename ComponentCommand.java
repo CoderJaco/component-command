@@ -34,7 +34,7 @@ public final class ComponentCommand extends SimpleCommand {
 		if ("githubnative".equals(type)) {
 			TextComponent first = new TextComponent(TextComponent.fromLegacyText(Common.colorize("&cHello there! &7You are holding ")));
 
-			first.setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://github.com/CoderJaco"));
+			first.setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://github.com/CoderJaco/component-command"));
 			first.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, TextComponent.fromLegacyText(Common.colorize("&8Click this to check how I made this. &7(&5Github Link&7)"))));
 
 			ItemStack item = getPlayer().getItemInHand();

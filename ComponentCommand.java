@@ -30,6 +30,7 @@ public final class ComponentCommand extends SimpleCommand {
 
 		String type = args[0].toLowerCase();
 
+		//Native approach
 		if ("githubnative".equals(type)) {
 			TextComponent first = new TextComponent(TextComponent.fromLegacyText(Common.colorize("&cHello there! &7You are holding ")));
 
@@ -40,7 +41,7 @@ public final class ComponentCommand extends SimpleCommand {
 			boolean air = item.getType() == Material.AIR;
 
 			TextComponent second = new TextComponent(TextComponent.fromLegacyText(Common.colorize(air ? "Air" : ItemUtil.bountifyCapitalized(item.getType()))));
-			second.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_ITEM, new BaseComponent[]{new TextComponent(Remain.toJson(item))})); //If you're using the native approach, you may want to copy the toJson method (Check buttom code).
+			second.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_ITEM, new BaseComponent[]{new TextComponent(Remain.toJson(item))})); //If you're using the native approach, you need to use the toJson method (Check buttom code).
 			second.setColor(ChatColor.GRAY);
 
 			TextComponent main = new TextComponent("");
@@ -49,7 +50,9 @@ public final class ComponentCommand extends SimpleCommand {
 			main.addExtra(second);
 
 			getPlayer().spigot().sendMessage(main);
-		} else if ("githubfoundation".equals(type)) {
+		} 
+		//Foundation approach (Note: When you are using foundation you don't have to copy the toJson method!)
+		else if ("githubfoundation".equals(type)) {
 
 			ItemStack item = getPlayer().getItemInHand();
 			boolean air = item.getType() == Material.AIR;

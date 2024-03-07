@@ -8,6 +8,7 @@ Dynamic Components: Integrate dynamic components in chat messages, providing an 
 To supercharge your plugin with Foundation API, follow these simple steps:
 
 Step 1: Add JitPack Repository
+
 Insert the JitPack repository into your Maven project by adding the following code to the ```<repositories>``` section in your pom.xml file:
 ```
 <repository>
@@ -17,6 +18,7 @@ Insert the JitPack repository into your Maven project by adding the following co
 ```
 
 Step 2: Add Dependency
+
 Include the ComponentCommand dependency in the ```<dependencies>``` section of your pom.xml file. Replace "REPLACE_WITH_LATEST_VERSION" with the latest version from :
 [https://github.com/kangarko/Foundation/releases](url)
 ```

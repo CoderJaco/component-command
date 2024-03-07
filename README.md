@@ -39,7 +39,7 @@ Once installed, the ComponentCommand provides two powerful functionalities:
 
 1. GitHub Native
 Command: /component githubnative
-Displays a chat message with a clickable GitHub link, allowing players to explore the associated GitHub profile.
+Displays a chat message with a clickable GitHub link leading to this page.
 Provides information about the item the player is holding.
 
 2. GitHub Foundation

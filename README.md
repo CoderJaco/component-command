@@ -30,6 +30,7 @@ Include the ComponentCommand dependency in the ```<dependencies>``` section of y
 ```
 
 Step 3: Explore Foundation
+
 For more in-depth information on Foundation and how to use it with tools other than Maven, visit 
 [https://jitpack.io/#kangarko/Foundation/](url)
 
@@ -37,14 +38,17 @@ Usage
 Once installed, the ComponentCommand provides two powerful functionalities:
 
 1. GitHub Native
+
 Command: /component githubnative
 Displays a chat message with a clickable GitHub link, allowing players to explore the associated GitHub profile.
 Provides information about the item the player is holding.
 2. GitHub Foundation
+
 Command: /component githubfoundation
 Utilizes the Foundation API to create a dynamic chat message with clickable text and item hover details.
 Demonstrates a creative way to engage players with interactive components.
 Get Creative!
+
 Feel free to modify and extend the ComponentCommand code to suit your server's unique needs. Explore the Foundation API to unleash the full potential of interactive components in your Minecraft world.
 
 Note: Ensure you have the latest version of Foundation to enjoy all the features and enhancements.

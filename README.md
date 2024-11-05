@@ -32,7 +32,7 @@ Include the ComponentCommand dependency in the ```<dependencies>``` section of y
 Step 3: Explore Foundation
 
 For more in-depth information on Foundation and how to use it with tools other than Maven, visit 
-[https://jitpack.io/#kangarko/Foundation/](url)
+[https://github.com/kangarko/Foundation/](url)
 
 # Usage
 Once installed, the ComponentCommand provides two powerful functionalities:

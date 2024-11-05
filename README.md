@@ -20,7 +20,7 @@ Insert the JitPack repository into your Maven project by adding the following co
 Step 2: Add Dependency
 
 Include the ComponentCommand dependency in the ```<dependencies>``` section of your pom.xml file. Replace "REPLACE_WITH_LATEST_VERSION" with the latest version from :
-[https://github.com/kangarko/Foundation/releases](url)
+[[https://github.com/kangarko/Foundation/releases](https://github.com/kangarko/Foundation/releases)(url)
 ```
 <dependency>
     <groupId>com.github.kangarko</groupId>
@@ -32,7 +32,7 @@ Include the ComponentCommand dependency in the ```<dependencies>``` section of y
 Step 3: Explore Foundation
 
 For more in-depth information on Foundation and how to use it with tools other than Maven, visit 
-[https://github.com/kangarko/Foundation/](url)
+[[https://github.com/kangarko/Foundation/](https://github.com/kangarko/Foundation)(url)
 
 # Usage
 Once installed, the ComponentCommand provides two powerful functionalities:
